@@ -45,14 +45,24 @@ std::vector<int> PrimeUnderN(int n){
     return primes;
 }
 
-template<typename T>
-std::vector<T> AtomicListPermutation(T a){
+std::vector<int> PrimeRange(int begin, int end){
+    std::vector<int> allPrimes = PrimeUnderN(end);
+    std::vector<int> output;
+    for (int v: allPrimes){
+        if (v > begin)
+            output.emplace_back(v);
+    }
+    return output;
+}
+
+
+std::vector<std::string> AtomicListPermutation(std::string a){
     /*
      auto Perm = AtomicListPermutation((std::string)"viola");
      for (auto s: Perm)
          std::cout << s << std::endl;
      */
-    std::vector<T> res;
+    std::vector<std::string> res;
     std::sort(a.begin(), a.end());
     res.emplace_back(a);
     while (std::next_permutation(a.begin(), a.end())){

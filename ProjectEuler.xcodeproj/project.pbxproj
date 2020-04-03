@@ -11,6 +11,8 @@
 		39DFED2A2436DB0A0052BF80 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED282436DB0A0052BF80 /* benchmark.cpp */; };
 		39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2B2436E0E30052BF80 /* solutions.cpp */; };
 		39DFED302436E4040052BF80 /* numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2E2436E4040052BF80 /* numbers.cpp */; };
+		39DFED332436EAA00052BF80 /* Prob49_prime_permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED312436EAA00052BF80 /* Prob49_prime_permutations.cpp */; };
+		39DFED36243717430052BF80 /* Prob49_2ndTry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED34243717420052BF80 /* Prob49_2ndTry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		39DFED2C2436E0E30052BF80 /* solutions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = solutions.hpp; sourceTree = "<group>"; };
 		39DFED2E2436E4040052BF80 /* numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numbers.cpp; sourceTree = "<group>"; };
 		39DFED2F2436E4040052BF80 /* numbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = numbers.hpp; sourceTree = "<group>"; };
+		39DFED312436EAA00052BF80 /* Prob49_prime_permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Prob49_prime_permutations.cpp; path = solutions/Prob49_prime_permutations.cpp; sourceTree = "<group>"; };
+		39DFED322436EAA00052BF80 /* Prob49_prime_permutations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Prob49_prime_permutations.hpp; path = solutions/Prob49_prime_permutations.hpp; sourceTree = "<group>"; };
+		39DFED34243717420052BF80 /* Prob49_2ndTry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Prob49_2ndTry.cpp; path = solutions/Prob49_2ndTry.cpp; sourceTree = "<group>"; };
+		39DFED35243717420052BF80 /* Prob49_2ndTry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Prob49_2ndTry.hpp; path = solutions/Prob49_2ndTry.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				39DFED282436DB0A0052BF80 /* benchmark.cpp */,
 				39DFED292436DB0A0052BF80 /* benchmark.hpp */,
 				39DFED2B2436E0E30052BF80 /* solutions.cpp */,
+				39DFED312436EAA00052BF80 /* Prob49_prime_permutations.cpp */,
+				39DFED322436EAA00052BF80 /* Prob49_prime_permutations.hpp */,
+				39DFED34243717420052BF80 /* Prob49_2ndTry.cpp */,
+				39DFED35243717420052BF80 /* Prob49_2ndTry.hpp */,
 				39DFED2C2436E0E30052BF80 /* solutions.hpp */,
 			);
 			path = ProjectEuler;
@@ -136,7 +146,9 @@
 			files = (
 				39DFED2A2436DB0A0052BF80 /* benchmark.cpp in Sources */,
 				3978FFBE2435019A00AB467D /* main.cpp in Sources */,
+				39DFED36243717430052BF80 /* Prob49_2ndTry.cpp in Sources */,
 				39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */,
+				39DFED332436EAA00052BF80 /* Prob49_prime_permutations.cpp in Sources */,
 				39DFED302436E4040052BF80 /* numbers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

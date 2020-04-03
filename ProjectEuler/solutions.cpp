@@ -12,17 +12,6 @@
 #include "numbers.hpp"
 #include "solutions.hpp"
 
-auto FourDigitIncreaseSequence(){
-    //FilterFourDigitPrimes
-    //EachPermutation
-    //FindTripleWithEqualDistance
-        //SORT
-        //FindAllDistancesBetweenTuples
-        //GetTripleWithEqualDistance
-    //ReturnTriple
-    ;
-}
-
 std::vector<int> FindCircularPrimes(int n){
     /*
      project euler problem #35

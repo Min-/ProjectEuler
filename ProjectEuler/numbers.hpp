@@ -23,8 +23,9 @@
 
 std::vector<int> PrimeUnderN(int);
 
-template<typename T>
-std::vector<T> AtomicListPermutation(T);
+std::vector<int> PrimeRange(int begin, int end);
+
+std::vector<std::string> AtomicListPermutation(std::string);
 
 std::vector<std::string> CircularListPermutation(std::string);
 
