@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3978FFBE2435019A00AB467D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3978FFBD2435019A00AB467D /* main.cpp */; };
+		3992644824387620005970B3 /* Euler55_lychrel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3992644724387620005970B3 /* Euler55_lychrel.cpp */; };
 		39DFED2A2436DB0A0052BF80 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED282436DB0A0052BF80 /* benchmark.cpp */; };
 		39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2B2436E0E30052BF80 /* solutions.cpp */; };
 		39DFED302436E4040052BF80 /* numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2E2436E4040052BF80 /* numbers.cpp */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		3978FFBA2435019A00AB467D /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		3978FFBD2435019A00AB467D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3992644724387620005970B3 /* Euler55_lychrel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Euler55_lychrel.cpp; path = solutions/Euler55_lychrel.cpp; sourceTree = "<group>"; };
+		399264492438765C005970B3 /* Euler55_lychrel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Euler55_lychrel.h; path = solutions/Euler55_lychrel.h; sourceTree = "<group>"; };
 		39DFED282436DB0A0052BF80 /* benchmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
 		39DFED292436DB0A0052BF80 /* benchmark.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = benchmark.hpp; sourceTree = "<group>"; };
 		39DFED2B2436E0E30052BF80 /* solutions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solutions.cpp; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				3978FFBD2435019A00AB467D /* main.cpp */,
+				3992644724387620005970B3 /* Euler55_lychrel.cpp */,
+				399264492438765C005970B3 /* Euler55_lychrel.h */,
 				39DFED2E2436E4040052BF80 /* numbers.cpp */,
 				39DFED2F2436E4040052BF80 /* numbers.hpp */,
 				39DFED282436DB0A0052BF80 /* benchmark.cpp */,
@@ -146,6 +151,7 @@
 			files = (
 				39DFED2A2436DB0A0052BF80 /* benchmark.cpp in Sources */,
 				3978FFBE2435019A00AB467D /* main.cpp in Sources */,
+				3992644824387620005970B3 /* Euler55_lychrel.cpp in Sources */,
 				39DFED36243717430052BF80 /* Prob49_2ndTry.cpp in Sources */,
 				39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */,
 				39DFED332436EAA00052BF80 /* Prob49_prime_permutations.cpp in Sources */,

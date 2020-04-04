@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <sstream>
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -14,12 +15,10 @@
 #include <chrono>
 
 #include "numbers.hpp"
-#include "benchmark.hpp"
-#include "solutions.hpp"
-
-#include "solutions/Prob49_2ndTry.hpp"
+#include "solutions/Euler55_lychrel.h"
 
 int main() {
+    Euler55();
     
     return 0;
 }
