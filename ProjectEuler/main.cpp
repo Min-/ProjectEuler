@@ -13,12 +13,12 @@
 #include <algorithm>
 #include <set>
 #include <chrono>
+#include <math.h>
 
 #include "numbers.hpp"
-#include "solutions/Euler55_lychrel.h"
+#include "./solutions/Euler44_Pentagon.hpp"
 
-int main() {
-    Euler55();
-    
+int main(){
+    SolutionEuler44();
     return 0;
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3978FFBE2435019A00AB467D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3978FFBD2435019A00AB467D /* main.cpp */; };
 		3992644824387620005970B3 /* Euler55_lychrel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3992644724387620005970B3 /* Euler55_lychrel.cpp */; };
+		39926543244193D1005970B3 /* Euler44_Pentagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39926541244193D1005970B3 /* Euler44_Pentagon.cpp */; };
 		39DFED2A2436DB0A0052BF80 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED282436DB0A0052BF80 /* benchmark.cpp */; };
 		39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2B2436E0E30052BF80 /* solutions.cpp */; };
 		39DFED302436E4040052BF80 /* numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DFED2E2436E4040052BF80 /* numbers.cpp */; };
@@ -33,6 +34,8 @@
 		3978FFBD2435019A00AB467D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3992644724387620005970B3 /* Euler55_lychrel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Euler55_lychrel.cpp; path = solutions/Euler55_lychrel.cpp; sourceTree = "<group>"; };
 		399264492438765C005970B3 /* Euler55_lychrel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Euler55_lychrel.h; path = solutions/Euler55_lychrel.h; sourceTree = "<group>"; };
+		39926541244193D1005970B3 /* Euler44_Pentagon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Euler44_Pentagon.cpp; path = solutions/Euler44_Pentagon.cpp; sourceTree = "<group>"; };
+		39926542244193D1005970B3 /* Euler44_Pentagon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Euler44_Pentagon.hpp; path = solutions/Euler44_Pentagon.hpp; sourceTree = "<group>"; };
 		39DFED282436DB0A0052BF80 /* benchmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
 		39DFED292436DB0A0052BF80 /* benchmark.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = benchmark.hpp; sourceTree = "<group>"; };
 		39DFED2B2436E0E30052BF80 /* solutions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solutions.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				39DFED34243717420052BF80 /* Prob49_2ndTry.cpp */,
 				39DFED35243717420052BF80 /* Prob49_2ndTry.hpp */,
 				39DFED2C2436E0E30052BF80 /* solutions.hpp */,
+				39926541244193D1005970B3 /* Euler44_Pentagon.cpp */,
+				39926542244193D1005970B3 /* Euler44_Pentagon.hpp */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				3992644824387620005970B3 /* Euler55_lychrel.cpp in Sources */,
 				39DFED36243717430052BF80 /* Prob49_2ndTry.cpp in Sources */,
 				39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */,
+				39926543244193D1005970B3 /* Euler44_Pentagon.cpp in Sources */,
 				39DFED332436EAA00052BF80 /* Prob49_prime_permutations.cpp in Sources */,
 				39DFED302436E4040052BF80 /* numbers.cpp in Sources */,
 			);
