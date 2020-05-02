@@ -39,7 +39,7 @@ bool doublePalindromic(unsigned int n){
     return isPalindromic(decimal) && isPalindromic(binary);
 }
 
-int main(){
+int main__problem36(){
     int a = 4;
     std::string astr = std::to_string(a);
     std::cout << "decimal is: " << isPalindromic(astr) << std::endl;
@@ -57,4 +57,5 @@ int main(){
     }
     
     std::cout << "the sum is: " << sum << std::endl;
+    return 0;
 }
