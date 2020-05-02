@@ -8,8 +8,3 @@
 
 
 
-#include "numbers.hpp"
-
-int main_temp(){
-    return 0;
-}

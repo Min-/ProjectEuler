@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3915D1A2245D2C9200D188F6 /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3915D1A1245D2C9200D188F6 /* pch.cpp */; };
 		3915D1A5245D2E1200D188F6 /* p62_cubic_permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3915D1A3245D2E1200D188F6 /* p62_cubic_permutation.cpp */; };
+		3915D1A7245D683700D188F6 /* Euler56_powerful_digit_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3915D1A6245D683700D188F6 /* Euler56_powerful_digit_sum.cpp */; };
+		3915D1A9245D72E000D188F6 /* Problem36_double_palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3915D1A8245D72E000D188F6 /* Problem36_double_palindrome.cpp */; };
 		3978FFBE2435019A00AB467D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3978FFBD2435019A00AB467D /* main.cpp */; };
 		3992644824387620005970B3 /* Euler55_lychrel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3992644724387620005970B3 /* Euler55_lychrel.cpp */; };
 		39926543244193D1005970B3 /* Euler44_Pentagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39926541244193D1005970B3 /* Euler44_Pentagon.cpp */; };
@@ -37,6 +39,8 @@
 		3915D1A1245D2C9200D188F6 /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pch.cpp; sourceTree = "<group>"; };
 		3915D1A3245D2E1200D188F6 /* p62_cubic_permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p62_cubic_permutation.cpp; sourceTree = "<group>"; };
 		3915D1A4245D2E1200D188F6 /* p62_cubic_permutation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p62_cubic_permutation.hpp; sourceTree = "<group>"; };
+		3915D1A6245D683700D188F6 /* Euler56_powerful_digit_sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Euler56_powerful_digit_sum.cpp; sourceTree = "<group>"; };
+		3915D1A8245D72E000D188F6 /* Problem36_double_palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem36_double_palindrome.cpp; sourceTree = "<group>"; };
 		3978FFBA2435019A00AB467D /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		3978FFBD2435019A00AB467D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3992644724387620005970B3 /* Euler55_lychrel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Euler55_lychrel.cpp; path = solutions/Euler55_lychrel.cpp; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 				3915D1A0245D2C9200D188F6 /* pch.h */,
 				3992654E2441C993005970B3 /* data */,
 				3978FFBD2435019A00AB467D /* main.cpp */,
+				3915D1A8245D72E000D188F6 /* Problem36_double_palindrome.cpp */,
 				399265442441C53B005970B3 /* Euler79_passcode.cpp */,
 				399265452441C53B005970B3 /* Euler79_passcode.hpp */,
 				3992644724387620005970B3 /* Euler55_lychrel.cpp */,
@@ -110,6 +115,7 @@
 				39DFED2C2436E0E30052BF80 /* solutions.hpp */,
 				39926541244193D1005970B3 /* Euler44_Pentagon.cpp */,
 				39926542244193D1005970B3 /* Euler44_Pentagon.hpp */,
+				3915D1A6245D683700D188F6 /* Euler56_powerful_digit_sum.cpp */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -186,9 +192,11 @@
 				39DFED2D2436E0E30052BF80 /* solutions.cpp in Sources */,
 				3915D1A2245D2C9200D188F6 /* pch.cpp in Sources */,
 				3915D1A5245D2E1200D188F6 /* p62_cubic_permutation.cpp in Sources */,
+				3915D1A9245D72E000D188F6 /* Problem36_double_palindrome.cpp in Sources */,
 				39926543244193D1005970B3 /* Euler44_Pentagon.cpp in Sources */,
 				39DFED332436EAA00052BF80 /* Prob49_prime_permutations.cpp in Sources */,
 				39DFED302436E4040052BF80 /* numbers.cpp in Sources */,
+				3915D1A7245D683700D188F6 /* Euler56_powerful_digit_sum.cpp in Sources */,
 				399265462441C53B005970B3 /* Euler79_passcode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
