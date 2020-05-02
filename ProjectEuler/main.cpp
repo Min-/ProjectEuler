@@ -10,6 +10,6 @@
 
 #include "numbers.hpp"
 
-int main(){
+int main_temp(){
     return 0;
 }
